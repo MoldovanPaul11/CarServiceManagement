@@ -1,0 +1,54 @@
+﻿<Window x:Class="Gestiune_Service.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gestiune_Service"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="253*"/>
+            <ColumnDefinition Width="547*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Margin="10,10,10,10">
+            <TextBlock TextWrapping="Wrap" Text="Marca masina:"/>
+            <TextBox x:Name="txtmarca" TextWrapping="Wrap" Width="120" />
+            <TextBlock TextWrapping="Wrap" Text="Model masina:"/>
+            <TextBox x:Name="txtmodel" TextWrapping="Wrap" Width="120" />
+            <TextBlock TextWrapping="Wrap" Text="Numar de inmatriculare:"/>
+            <TextBox x:Name="txtNrInmatriculare" TextWrapping="Wrap" Width="120" />
+            <Button x:Name="btnAddCar" Content="Adauga masina in service" Click="btnAddCar_Click"/>
+        </StackPanel>
+        <DataGrid x:Name="dgMasini" 
+          Grid.Column="1" 
+          Margin="10"
+          ItemsSource="{Binding CarsInService}" 
+          AutoGenerateColumns="False" 
+          CanUserAddRows="False"
+          Background="White">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Marcă" Binding="{Binding Name}" Width="*"/>
+
+                <DataGridTextColumn Header="Model" Binding="{Binding Model}" Width="*"/>
+
+                <DataGridTextColumn Header="Nr. Auto" Binding="{Binding NrInmatriculare}" Width="100"/>
+
+                <DataGridTextColumn Header="Preț Estimat" Binding="{Binding Price, StringFormat={}{0} RON}" Width="100"/>
+
+                <DataGridTemplateColumn Header="Acțiuni" Width="80">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Șterge" 
+                            Background="#E74C3C" 
+                            Foreground="White" 
+                            Click="btnDeleteCar_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>
