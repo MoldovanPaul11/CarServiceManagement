@@ -8,7 +8,7 @@ namespace Gestiune_Service.model
 {
     public class Car
     {
-        public string Name { get; set; }
+        public string Marca { get; set; }
         public string Model { get; set; }
         public string NrInmatriculare {  get; set; }
         public string Problem {  get; set; }
@@ -17,7 +17,7 @@ namespace Gestiune_Service.model
 
         public Car()
         {
-            Name = string.Empty;
+            Marca = string.Empty;
             Model = string.Empty;
             NrInmatriculare= string.Empty;
             Problem=string.Empty;
@@ -26,7 +26,7 @@ namespace Gestiune_Service.model
         }
         public Car(string name, string model, string nrinmatriculare, string problem, double price, bool finished)
         {
-            Name = name;
+            Marca = name;
             Model = model;
             NrInmatriculare = nrinmatriculare;
             Problem = problem;

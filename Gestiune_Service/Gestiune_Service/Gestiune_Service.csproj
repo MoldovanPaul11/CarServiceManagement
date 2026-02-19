@@ -12,7 +12,6 @@
     <Folder Include="resources\" />
     <Folder Include="services\" />
     <Folder Include="viewsmodels\" />
-    <Folder Include="views\" />
   </ItemGroup>
 
 </Project>
