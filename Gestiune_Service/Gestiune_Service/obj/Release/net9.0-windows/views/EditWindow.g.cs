@@ -85,7 +85,7 @@ namespace Gestiune_Service.views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Gestiune_Service;V1.0.0.0;component/views/editwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Gestiune_Service;component/views/editwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\views\EditWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

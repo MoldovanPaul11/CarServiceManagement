@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Gestiune_Service",
-    "\\Gestiune_Service\\Gestiune_Service"
+    "\\Gestiune_Service\\Gestiune_Service",
+    "\\Gestiune_Service\\Gestiune_Service\\views"
   ],
-  "SelectedNode": "\\Gestiune_Service\\Gestiune_Service\\MainWindow.xaml",
+  "SelectedNode": "\\Gestiune_Service\\Gestiune_Service\\views\\EditWindow.xaml",
   "PreviewInSolutionExplorer": false
 }

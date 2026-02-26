@@ -53,8 +53,7 @@
               "ToolTip": "C:\\Users\\Paul\\Desktop\\proiecte personale\\CarServiceManagement\\Gestiune_Service\\Gestiune_Service\\App.xaml",
               "RelativeToolTip": "Gestiune_Service\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-19T18:10:54.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T18:10:54.139Z"
             },
             {
               "$type": "Document",
@@ -66,8 +65,7 @@
               "RelativeToolTip": "Gestiune_Service\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T17:33:19.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T17:33:19.68Z"
             },
             {
               "$type": "Document",
@@ -79,8 +77,7 @@
               "RelativeToolTip": "Gestiune_Service\\views\\EditWindow.xaml.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAuwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T16:46:42.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T16:46:42.786Z"
             },
             {
               "$type": "Document",
@@ -88,8 +85,8 @@
               "Title": "EditWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\proiecte personale\\CarServiceManagement\\Gestiune_Service\\Gestiune_Service\\views\\EditWindow.xaml",
               "RelativeDocumentMoniker": "Gestiune_Service\\views\\EditWindow.xaml",
-              "ToolTip": "C:\\Users\\Paul\\Desktop\\proiecte personale\\CarServiceManagement\\Gestiune_Service\\Gestiune_Service\\views\\EditWindow.xaml*",
-              "RelativeToolTip": "Gestiune_Service\\views\\EditWindow.xaml*",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\proiecte personale\\CarServiceManagement\\Gestiune_Service\\Gestiune_Service\\views\\EditWindow.xaml",
+              "RelativeToolTip": "Gestiune_Service\\views\\EditWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-02-19T16:41:56.83Z",
               "EditorCaption": ""
@@ -104,8 +101,7 @@
               "RelativeToolTip": "Gestiune_Service\\model\\Car.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T12:32:54.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T12:32:54.691Z"
             },
             {
               "$type": "Document",
@@ -116,8 +112,7 @@
               "ToolTip": "C:\\Users\\Paul\\Desktop\\proiecte personale\\CarServiceManagement\\Gestiune_Service\\Gestiune_Service\\MainWindow.xaml",
               "RelativeToolTip": "Gestiune_Service\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-19T12:29:12.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T12:29:12.288Z"
             },
             {
               "$type": "Document",
@@ -129,8 +124,7 @@
               "RelativeToolTip": "Gestiune_Service\\MainWindow.xaml.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAUwFEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T12:29:08.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T12:29:08.286Z"
             }
           ]
         }

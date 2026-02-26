@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gestiune_Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f02c3bcff0d7295460ec9a3810fd18a5f83fc5c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3ab573142a2faae43c9b3b9d1704495cf6cff92")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gestiune_Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gestiune_Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
